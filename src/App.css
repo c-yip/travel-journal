@@ -1,3 +1,11 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+p {
+  margin: 0px;
+}
+
 .nav {
   display: flex;
   justify-content: center;
@@ -6,4 +14,44 @@
   background: #F55A5A;
   color: white;
   font-size: 15px;
+}
+
+.cards-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  gap: 15px;
+  padding: 50px;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  margin: 0px;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.location-container > a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #918E9B;
+}
+
+.location-container > p {
+  font-size: 15px;
+  letter-spacing: 0.17em;
 }
